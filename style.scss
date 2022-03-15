@@ -6,5 +6,73 @@ $fontRobot: "Roboto", sans-serif;
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
   box-sizing: border-box;
 }
+
+.heder-section{
+  .header{
+    .top-bar{
+      background-color: #a3a5a7;
+      .container{
+        display: flex;
+        justify-content: space-between;
+        .para{
+          font-size: 13px;
+          color: white;
+          p{
+            margin-top: 13px;
+          }
+        }
+        .contact{
+          display: flex;
+          .top-links{
+            font-family: $fontRobot;
+            text-transform: uppercase;
+            font-size: 12px;
+            ul{
+              line-height: 16px;
+              display: flex;
+              li{
+                margin-top: 15px;
+                a{
+                  border-left: 1px solid rgba(201, 192, 192, 0.726);
+                  padding: 18px;
+                  text-decoration: none;
+                  color: white;
+                  &:hover{
+                    background-color: #222;
+                  }
+
+                }
+              }
+            }
+          }
+          .top-socials{
+            display: flex;
+            .icons{
+              margin-top: 2px;
+              border-left: 1px solid rgba(201, 192, 192, 0.726);
+              a{
+                color: white;
+                i{
+                  padding: 13px;
+                  font-size: 13px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .menu-bar{
+      .container{
+
+      }
+
+    }
+  }
+}
+
+
+
