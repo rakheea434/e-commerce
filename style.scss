@@ -74,5 +74,51 @@ $fontRobot: "Roboto", sans-serif;
   }
 }
 
+// slider section start
+
+  .carousel-inner {
+      .BG-1 {
+          background-image: url(../images/100.jpg);
+      }
+      .BG-2 {
+          background-image: url(../images/104.jpg);
+      }
+      .BG-3 {
+          background-image: url(../images/105.jpg);
+          
+      }
+      .carousel-item {
+          display: grid;
+          align-items: center;
+          text-align: center;
+          height: 500px;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          .slider-txt {
+              a {
+                  text-decoration: none;
+                  font-size: 15px;
+                  color: rgb(124, 4, 4);
+                  padding: 0px 20px;
+                  background-color: #fff;
+                  text-transform: uppercase;
+                  border-radius: 10px;
+              }
+              h1 {
+                  color: #fff;
+                  font-size: 50px;
+              }
+              p {
+                  color: rgb(0, 255, 157);
+                  font-size: 30px;
+                  line-height: 8px;
+              }
+          }
+      }
+  }
+
+// slider section end
+
+
 
 
