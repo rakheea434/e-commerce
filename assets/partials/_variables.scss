@@ -1,0 +1,7 @@
+//media query-starts
+@mixin mediaQuery( $minSize , $maxSize){ 
+    @media only screen and (min-width:$minSize) and (max-width:$maxSize){@content;}
+}
+
+// typical break points (min , max) >> (600px , 768px) , (768px , 992px) , (992px , 1200px) 
+//media query-ends
