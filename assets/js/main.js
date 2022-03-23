@@ -1,3 +1,17 @@
+//header js
+$("#men-sub").hover(function(){
+  $("#nav-sub-menu-wrapper").fadeToggle(200)
+})
+$("#women-sub").hover(function(){
+  $("#nav-sub-women").fadeToggle(200)
+})
+$("#top-cart").click(function(){
+  $("#cart-sub").fadeToggle(200)
+})
+//header js
+
+
+//newArrival js-starts
 let btn = document.querySelector(".btn");
 let container = document.querySelector(".cont");
 let clo = document.querySelector(".close");
@@ -34,4 +48,4 @@ function modalPopUp( x , y , z ) {
 modalPopUp(btn , container , clo);
 modalPopUp(btn1 , container1 , clo1);
 modalPopUp(btn2 , container2 , clo2)
-
+//newArrival js-ends
