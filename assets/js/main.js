@@ -12,7 +12,7 @@ $("#top-cart").click(function(){
 
 
 //newArrival js-starts
-let btn = document.querySelector(".btn");
+let btn = document.querySelector(".btn0");
 let container = document.querySelector(".cont");
 let clo = document.querySelector(".close");
 
@@ -49,3 +49,17 @@ modalPopUp(btn , container , clo);
 modalPopUp(btn1 , container1 , clo1);
 modalPopUp(btn2 , container2 , clo2)
 //newArrival js-ends
+
+
+
+// *****  details section start *********\\
+let accordions = document.querySelectorAll('.accordion-container .accordion');
+
+accordions.forEach(acco =>{
+    acco.onclick = () =>{
+        accordions.forEach(subAcco => { subAcco.classList.remove('active') });
+        acco.classList.add('active');
+        
+    }
+});
+// *****  details section end *********\\
